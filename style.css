@@ -1,0 +1,15 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#gvgimg {
+    border-radius: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transform: scale(60%) translate(70px, -50px);
+}
+
+th {
+    text-align: left;
+}
