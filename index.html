@@ -6,8 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF8">
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	</head>
-	<body>
+	<body onload="dButtons();">
 		<div id="main">
 			<h1 id="heading">Clemens August Graf von Galen</h1>
 			<h5 id="subheading">Wiederstand zur NS-Zeit</h5>
@@ -15,10 +17,28 @@
 			<img src="https://reflexionchretienne.e-monsite.com/medias/images/cl-august-graf-v-galen.22.jpg" id="graf" />
 		</div>
 		<div id="next">
-			<button class="bigbutton" onclick="one();">Me big button haha me</button>
-			<button class="bigbutton" onclick="two();">Lol ok wut</button>
-			<button class="bigbutton" onclick="three();">This is a very very very very very much very long button</button>
-			<button class="bigbutton" onclick="four();">K</button>
+                    <div id="buttons">
+                        <button class="bigbutton" onclick="one();">Text A</button>
+                        <button class="bigbutton" onclick="two();">Text B</button>
+                        <button class="bigbutton" onclick="three();">Text C</button>
+                        <button class="bigbutton" onclick="four();">Text D</button>
+                    </div>
+                    <div id="content_a" class="content">
+                        <button onclick="dButtons();" class="back"><i class="fas fa-arrow-left"></i></button>
+                        <p>Stuff</p>
+                    </div>
+                    <div id="content_b" class="content">
+                        <button onclick="dButtons();" class="back"><i class="fas fa-arrow-left"></i></button>
+                        <p>Stuff</p>
+                    </div>
+                    <div id="content_c" class="content">
+                        <button onclick="dButtons();" class="back"><i class="fas fa-arrow-left"></i></button>
+                        <p>Stuff</p>
+                    </div>
+                    <div id="content_d" class="content">
+                        <button onclick="dButtons();" class="back"><i class="fas fa-arrow-left"></i></button>
+                        <p>Stuff</p>
+                    </div>
 		</div>
 	</body>
 </html>

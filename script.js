@@ -1,15 +1,28 @@
+function dButtons() {
+    $("#buttons").show();
+    $(".content").hide();
+}
+
 function one() {
-	alert("a");
+    $("#buttons").hide();
+    $(".content").hide();
+    $("#content_a").show();
 }
 
 function two() {
-	alert("b");
+    $("#buttons").hide();
+    $(".content").hide();
+    $("#content_a").show();
 }
 
 function three() {
-	alert("c");
+    $("#buttons").hide();
+    $(".content").hide();
+    $("#content_a").show();
 }
 
 function four() {
-	alert("d");
+    $("#buttons").hide();
+    $(".content").hide();
+    $("#content_a").show();
 }

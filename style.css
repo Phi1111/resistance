@@ -1,50 +1,71 @@
 * {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
 }
 
 #main {
-	position: fixed;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
 }
 
 #heading {
-	text-align: center;
+    text-align: center;
 }
 
 #subheading {
-	text-align: center;
+    text-align: center;
 }
 
 #graf {
-	height: 75vh;
-	width: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    height: 75vh;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .bigbutton {
-	width: 90vw;
-	height: 15vh;
-	margin-bottom: 20px;
+    width: 90vw;
+    height: 15vh;
+    margin-bottom: 20px;
 }
 
 .bigbutton:first-child {
-	margin-top: 20px;
+    margin-top: 20px;
+}
+
+.back {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 #next {
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	top: 100vh;
-	background: white;
-	justify-content: center;
-	height: 100vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 100vh;
+    background: white;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 @media screen and (max-width: 500) {
-	#graf {
-		width: 75vw;
-		height: auto;
-	}
+    #graf {
+            width: 75vw;
+            height: auto;
+    }
 }
