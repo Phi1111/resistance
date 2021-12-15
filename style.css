@@ -1,15 +1,50 @@
 * {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
-#gvgimg {
-    border-radius: 100px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    transform: scale(60%) translate(70px, -50px);
+#main {
+	position: fixed;
 }
 
-th {
-    text-align: left;
+#heading {
+	text-align: center;
+}
+
+#subheading {
+	text-align: center;
+}
+
+#graf {
+	height: 75vh;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bigbutton {
+	width: 90vw;
+	height: 15vh;
+	margin-bottom: 20px;
+}
+
+.bigbutton:first-child {
+	margin-top: 20px;
+}
+
+#next {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	top: 100vh;
+	background: white;
+	justify-content: center;
+	height: 100vh;
+}
+
+@media screen and (max-width: 500) {
+	#graf {
+		width: 75vw;
+		height: auto;
+	}
 }
