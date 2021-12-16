@@ -20,6 +20,21 @@ body {
     text-align: center;
 }
 
+.content > h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content > p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content > h5 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #graf {
     height: 75vh;
     width: auto;
@@ -49,7 +64,7 @@ body {
     height: 30px;
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 10px;
 }
 
 #next {
