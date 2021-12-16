@@ -8,6 +8,7 @@ function one() {
     $("#buttons").hide();
     $(".content").hide();
     $("#content_a").show();
+    $("#next").css("height", "150vh");
 }
 
 function two() {
