@@ -76,6 +76,7 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    border-top: 5px solid gray;
 }
 
 @media screen and (max-width: 500) {
