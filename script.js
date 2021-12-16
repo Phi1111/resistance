@@ -21,7 +21,7 @@ function three() {
     $("#buttons").hide();
     $(".content").hide();
     $("#content_c").show();
-    $("#next").css("height", "300vh");
+    $("#next").css("height", "350vh");
 }
 
 function four() {

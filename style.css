@@ -20,6 +20,12 @@ body {
     text-align: center;
 }
 
+#sources {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
 .content > h2 {
     text-align: center;
     margin-top: 50px;
