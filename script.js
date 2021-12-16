@@ -1,6 +1,7 @@
 function dButtons() {
     $("#buttons").show();
     $(".content").hide();
+    $("#next").css("height", "100vh");
 }
 
 function one() {
@@ -12,17 +13,19 @@ function one() {
 function two() {
     $("#buttons").hide();
     $(".content").hide();
-    $("#content_a").show();
+    $("#content_b").show();
+    $("#next").css("height", "150vh");
 }
 
 function three() {
     $("#buttons").hide();
     $(".content").hide();
-    $("#content_a").show();
+    $("#content_c").show();
+    $("#next").css("height", "300vh");
 }
 
 function four() {
     $("#buttons").hide();
     $(".content").hide();
-    $("#content_a").show();
+    $("#content_d").show();
 }
